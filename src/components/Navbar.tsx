@@ -12,8 +12,8 @@ export const Navbar: FC = ({ }) => {
                         <div className="flex items-center ">
                             <div className="flex-shrimk-0">
                                 <Link to='/'>
-                                    <img src="/src/img/Logo21.png"
-                                        alt="" className='h-14 w-auto mr-10' />
+                                    <img src="/public/Logo21.png"
+                                        alt="Logo" className='h-14 w-auto mr-10' />
                                 </Link>
 
 
