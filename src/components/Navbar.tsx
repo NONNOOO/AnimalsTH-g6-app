@@ -1,5 +1,7 @@
 import { useState, FC } from 'react'
 import { Link } from 'wouter'
+import Logo from '../assets/Logo21.png'
+
 
 export const Navbar: FC = ({ }) => {
     const [showMenu, setShowMenu] = useState<boolean>(false);
@@ -12,7 +14,7 @@ export const Navbar: FC = ({ }) => {
                         <div className="flex items-center ">
                             <div className="flex-shrimk-0">
                                 <Link to='/'>
-                                    <img src="/public/Logo21.png"
+                                    <img src={Logo}
                                         alt="Logo" className='h-14 w-auto mr-10' />
                                 </Link>
 
