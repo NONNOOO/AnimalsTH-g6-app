@@ -4,7 +4,7 @@ const Home = () => {
         <div className="bg-gradient-to-br from-green-700 to-sky-700" >
             <div className="flex flex-col items-center ">
                 <img
-                    src="https://img.freepik.com/free-photo/tranquil-scene-mountain-reflected-water-generated-by-ai_188544-26907.jpg?t=st=1697090214~exp=1697093814~hmac=48f565081b72ad1e4b0dc21622f095ff88b1adc176fc80103a6e4988f77d0554&w=1380"
+                    src="https://images.unsplash.com/photo-1516571137133-1be29e37143a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80"
                     alt="animals home picture"
                     className='h-full w-full md:h-6/12 lg:h-2/4 object-cover rounded  shadow-sm shadow-green-400'
                 />
@@ -86,6 +86,62 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="sm:p-16 xs:p-8 px-6 py-12  z-10 ">
+                <div className="2xl:max-w-[1280px] w-full mx-auto flex lg:flex-row flex-col gap-8">
+
+                    <div className="flex-1 flex justify-center items-center lg:pt-10">
+                        <img src="https://image.thainewsonline.co/uploads/images/contents/w1024/2023/07/84h4eGMCXFDZD2Nmhp8q.webp"
+                            alt=""
+                            className="md:h-6/12  object-cover rounded  shadow-sm shadow-sky-400" />
+                    </div>
+
+                    <div className="flex-[0.95] flex justify-center flex-col pl-10">
+                        <div className="mt-5">
+                            <h2 className="mt-[8px] font-bold md:text-[50px] text-[40px] text-white undefined">
+                                สัตว์ป่าสงวนในประเทศไทย
+                            </h2>
+                        </div>
+                        <div className="mt-6">
+                            <div className="text-lg text-[#bcbdbe]">
+                                <p>
+                                    สัตว์ป่าจำพวกสัตว์เลี้ยงลูกด้วยนม<br />
+                                    1. กระซู่ (Didermocerus Samatraensis) <br />
+                                    2. กวางผา (Naemorhedus griseus) <br />
+                                    3. กูปรีหรือโคไพร (Bos sauveli) <br />
+                                    4. เก้งหม้อ (Muntiacus feae)<br />
+                                    5. ควายป่า (Bubalus bubalis)<br />
+                                    6. พะยูนหรือหมูน้ำ (Dugong dugon)<br />
+                                    7. แมวลายหินอ่อน (Pardofelis marmorata)<br />
+                                    8. แรด (Rhinceros sondaicus)<br />
+                                    9. ละองหรือละมั่ง (Cervus eldi)<br />
+                                    10. เลียงผาหรือเยืองหรือกูรำหรือโครำ (Capriconis sumatraensis)<br />
+                                    11. วาฬบรูด้า (Balaenoptera edeni)<br />
+                                    12. วาฬโอมูระ (Balaenoptera omurai)<br />
+                                    13. สมเสร็จ (Tapirus indicus)<br />
+                                    14. สมันหรือเนื้อสมัน (Cervus schomburgki)<br />
+
+                                    สัตว์ป่าจำพวกนก<br />
+                                    15. นกกระเรียน (Grus antigone)<br />
+                                    16. นกเจ้าฟ้าหญิงสิรินธร (Pseudochelidon sirintarae)<br />
+                                    17. นกแต้วแร้วท้องดำ (Pitta gurneyi)<br />
+
+                                    สัตว์ป่าจำพวกสัตว์เลื้อยคลาน<br />
+                                    18. เต่ามะเฟือง (Dermochelys coriacea)<br />
+
+                                    สัตว์ป่าจำพวกปลา<br />
+                                    19. ปลาฉลามวาฬ (Rhincodon typus) <br />
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
 
         </div>
     )
