@@ -28,6 +28,12 @@ export const Navbar: FC = ({ }) => {
                                     <a href='/' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-md font-medium'>
                                         หน้าแรก
                                     </a>
+                                    <Link to='/Animals' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-md font-medium'>
+                                        สัตว์ป่า
+                                    </Link>
+                                    <Link to='/Animals' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-md font-medium'>
+                                        พื้นที่ธรรมชาติ
+                                    </Link>
                                     <a href='/Animals' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-md font-medium'>
                                         สัตว์ป่า
                                     </a>
