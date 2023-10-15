@@ -24,15 +24,16 @@ export const Navbar: FC = ({ }) => {
 
                             <div className="hidden md:block">
                                 <div className="flex ml:-3  items-baseline space-x-1">
-                                    <Link to='/' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-md font-medium'>
+
+                                    <a href='/' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-md font-medium'>
                                         หน้าแรก
-                                    </Link>
-                                    <Link to='/Animals' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-md font-medium'>
+                                    </a>
+                                    <a href='/Animals' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-md font-medium'>
                                         สัตว์ป่า
-                                    </Link>
-                                    <Link to='/Natural' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-md font-medium'>
+                                    </a>
+                                    <a href='/Natural' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-md font-medium'>
                                         พื้นที่ธรรมชาติ
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -86,15 +87,15 @@ export const Navbar: FC = ({ }) => {
                 </div>
                 {showMenu && (
                     <div className={`flex flex-col px-2 pt-3 pb-3 space-y-1 sm:px-3 md:hidden`}>
-                        <Link to='/' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-sm font-medium'>
+                        <a href='/' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-sm font-medium'>
                             หน้าแรก
-                        </Link>
-                        <Link to='Animals' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-sm font-medium'>
+                        </a>
+                        <a href='Animals' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-sm font-medium'>
                             สัตว์ป่า
-                        </Link>
-                        <Link to='Natural' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-sm font-medium'>
+                        </a>
+                        <a href='Natural' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-sm font-medium'>
                             พื้นที่ธรรมชาติ
-                        </Link>
+                        </a>
                     </div>
                 )}
             </nav>

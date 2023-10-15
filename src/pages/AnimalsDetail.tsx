@@ -1,12 +1,13 @@
-import { useRoute, useLocation } from "wouter";
+import { useRoute, } from "wouter";
 import { useAnimals } from "../hooks/useAnimals";
 
 const AnimalsDetail = () => {
-    const [, params] = useRoute('/animals/:animalsName')
-    const animalsName = decodeURI(params!.animalsName)
+    const [, params] = useRoute('/animals/:animals')
+    const animalsName = decodeURI(params!.animals)
+
     const { getAnimalsByName } = useAnimals()
     const { img, biography } = getAnimalsByName(animalsName)
-    const [, setLocation] = useLocation()
+
 
     return (
         <div className="flex flex-col items-center p-9 min-h-screen bg-gradient-to-br from-green-700 to-sky-700 text-white">
@@ -29,9 +30,11 @@ const AnimalsDetail = () => {
                         {biography}
                     </p>
                 </div>
-                <button onClick={() => setLocation('/animals')} className="text-black bg-white rounded-lg p-3">
-                    ย้อนกลับ
-                </button>
+                <a href="/Animals">
+                    <button className="text-black bg-white rounded-lg p-3">
+                        ย้อนกลับ
+                    </button>
+                </a>
             </div>
         </div>
     )
