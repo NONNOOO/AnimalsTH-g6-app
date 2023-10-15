@@ -31,15 +31,10 @@ export const Navbar: FC = ({ }) => {
                                     <Link to='/Animals' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-md font-medium'>
                                         สัตว์ป่า
                                     </Link>
-                                    <Link to='/Animals' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-md font-medium'>
+                                    <Link to='/Natural' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-md font-medium'>
                                         พื้นที่ธรรมชาติ
                                     </Link>
-                                    <a href='/Animals' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-md font-medium'>
-                                        สัตว์ป่า
-                                    </a>
-                                    <a href='/Natural' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-md font-medium'>
-                                        พื้นที่ธรรมชาติ
-                                    </a>
+
                                 </div>
                             </div>
                         </div>
@@ -96,10 +91,10 @@ export const Navbar: FC = ({ }) => {
                         <a href='/' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-sm font-medium'>
                             หน้าแรก
                         </a>
-                        <a href='Animals' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-sm font-medium'>
+                        <a href='/Animals' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-sm font-medium'>
                             สัตว์ป่า
                         </a>
-                        <a href='Natural' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-sm font-medium'>
+                        <a href='/Natural' className='text-white hover:bg-green-700 px-3 py-2 rounded-md text-sm font-medium'>
                             พื้นที่ธรรมชาติ
                         </a>
                     </div>
