@@ -2,9 +2,8 @@ import { useRoute, } from "wouter";
 import { useAnimals } from "../hooks/useAnimals";
 
 const AnimalsDetail = () => {
-    const [, params] = useRoute('/animals/:animals')
-    const animalsName = decodeURI(params!.animals)
-
+    const [, params] = useRoute('/animals/:animalsName')
+    const animalsName = decodeURI(params!.animalsName)
     const { getAnimalsByName } = useAnimals()
     const { img, biography } = getAnimalsByName(animalsName)
 
