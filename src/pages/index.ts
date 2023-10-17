@@ -1,8 +1,8 @@
 import Home from "./Home";
+import Natural from "./Natural";
 import Animals from "./Animals";
 import AnimalsDetail from "./AnimalsDetail";
-import Natural from "./Natural";
 
 
 
-export {Home,Animals,Natural,AnimalsDetail }
+export {Home,Natural,Animals,AnimalsDetail}

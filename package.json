@@ -1,5 +1,5 @@
 {
-  "name": "animals-app",
+  "name": "wild-animals-th-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +12,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.16.0",
     "wouter": "^2.12.0"
   },
   "devDependencies": {

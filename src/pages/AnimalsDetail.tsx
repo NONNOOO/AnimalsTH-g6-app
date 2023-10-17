@@ -11,7 +11,7 @@ const AnimalsDetail = () => {
 
 
     return (
-        <div className="flex flex-col items-center p-9 min-h-screen bg-gradient-to-br from-green-700 to-sky-700 text-white">
+        <div className="flex flex-col items-center p-9 min-h-screen bg-[#61876E] text-[#fff]">
             <div className="flex flex-col md:flex-col md:gap-4 md:w-[calc(89%+1rem)] lg:w-[colc(70%+1rem)] items-center p-10 border-dashed border-2 rounded-xl">
                 <div className="flex flex-col items-center w-full">
 
@@ -19,20 +19,20 @@ const AnimalsDetail = () => {
                         {animalsName}
                     </p>
 
-                    <img src={img} className="my-10 odject-cover rounded-md " alt={animalsName} />
+                    <img src={img} className="my-10 odject-cover rounded-xl shadow-lg shadow-[#EAE7B1] " alt={animalsName} />
                 </div>
 
 
                 <div>
-                    <p className=" font-mono text-lg px-3">
+                    <p className=" font-mono font-bold text-lg  ">
                         ลักษณะ
                     </p>
-                    <p className=" font-mono md:text-base lg:fext-lg p-3 lg:p-3 indent-10">
+                    <p className=" font-mono md:text-base lg:fext-lg  px-0 lg:px-20  indent-10">
                         {biography}
                     </p>
                 </div>
 
-                <button onClick={() => setLocation('/Animals')} className="text-black bg-white rounded-lg p-3">
+                <button onClick={() => setLocation('/Animals')} className="text-[#fff] bg-[#3C6255] hover:bg-[#618264] rounded-lg p-3">
                     ย้อนกลับ
                 </button>
             </div>
