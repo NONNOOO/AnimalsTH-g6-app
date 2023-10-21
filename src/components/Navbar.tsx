@@ -13,7 +13,7 @@ function Navbar() {
 
 
     return (
-        <nav className="top-0  bg-[#3C6255] border-gray-200 ">
+        <nav className="sticky top-0  bg-[#3C6255] border-gray-200 ">
             <div className=" max-w-screen-xl  flex flex-wrap items-center justify-between mx-auto px-4 py-2">
                 <Link to="/" className="flex items-center">
                     <img src={Logo} className="h-16 w-auto" alt="Logo" />
