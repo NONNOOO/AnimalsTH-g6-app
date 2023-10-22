@@ -19,7 +19,7 @@ export const AnimalsItem: FC<AnimalsItemProps> = ({ animalsProps }) => {
             onClick={() => setLocation(`/Animals/${animal}`)}
         >
             <img src={img} className='h-40 w-auto rounded-xl shadow-lg shadow-[#EAE7B1]' alt="animal" />
-            <p className='text-gray-100 overflow-hidden  font-mono fext-lg font-2xl'>
+            <p className='text-gray-100 overflow-hidden  font-mono text-xl'>
                 {animal}
             </p>
         </div>
